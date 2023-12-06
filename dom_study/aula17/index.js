@@ -9,10 +9,10 @@ function useDarkTheme() {
 }
 
 function switchTheme() {
-  document.body.classList.toggle('is-light');
-  document.body.classList.toggle('is-dark');
+  document.body.classList.toggle('is-light')
+  document.body.classList.toggle('is-dark')
 }
 
 document.getElementById('lightBtn').addEventListener('click', useLightTheme);
 document.getElementById('darkBtn').addEventListener('click', useDarkTheme);
-document.getElementById('swithBtn').addEventListener('click', switchTheme);
+document.getElementById('switchBtn').addEventListener('click', switchTheme);
