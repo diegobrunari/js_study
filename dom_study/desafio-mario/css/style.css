@@ -37,6 +37,13 @@
   animation: clouds-animation 20s infinite linear;
 }
 
+.game-over {
+  position: absolute;
+  width: 500px;
+  visibility: hidden;
+  margin-left: 35%;
+}
+
 @keyframes pipe-animation {
   from {
     right: -80px;
@@ -76,5 +83,15 @@
 
   to {
     right: 100%;
+  }
+}
+
+@keyframes game-over-animation {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
   }
 }
