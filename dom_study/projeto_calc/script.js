@@ -15,6 +15,7 @@ document.querySelectorAll('.charKey').forEach((charKeyBtn) => {
 document.getElementById('clear').addEventListener('click', () => {
   input.value = '';
   resultInput.value = '';
+  resultInput.classList.remove('error');
   document.getElementById('copyToClipboard');
   copyToClipboard.classList.remove("success");
   copyToClipboard.innerText = 'Copy';
