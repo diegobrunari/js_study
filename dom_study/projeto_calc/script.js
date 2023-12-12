@@ -63,10 +63,10 @@ document.getElementById('copyToClipboard').addEventListener('click', (ev) => {
 
 document.getElementById('themeSwitcher').addEventListener('click', () => {
   if(main.dataset.theme === 'dark') {
-    root.style.setProperty("--bg-color", "#f1f5f9");
+    root.style.setProperty("--bg-color", "#e7e1cf");
     root.style.setProperty("--border-color", "#aaa");
     root.style.setProperty("--font-color", "#212529");
-    root.style.setProperty("--primary-color", "#26834a");
+    root.style.setProperty("--primary-color", "#fa8585");
     main.dataset.theme = 'light';
   } else {
     root.style.setProperty("--bg-color", "#212529");
